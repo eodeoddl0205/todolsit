@@ -1,0 +1,61 @@
+.container {
+  display:  flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 450px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin: 0.5rem;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.small-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: start;
+}
+
+.icon {
+  color: #c0c0c0;
+}
+
+.icon:hover {
+  color: #6b6b6b;
+}
+
+.small-container > input {
+  display: none;
+}
+
+.cheakbox {
+  width: 12px;
+  height: 12px;
+  border: 1.5px solid black;
+  margin-right: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.ap {
+  display: flex;
+  font-size: 23px;
+  position: relative;
+  left: 1px;
+  bottom: 3px;
+  color: black;
+}
+
+.hide {
+  display: none;
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+.text {
+  color: #666666;
+}
